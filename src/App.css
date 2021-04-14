@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #F2F3F4;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(238, 238, 238); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(179, 176, 176); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(131, 129, 129); 
+}
+
