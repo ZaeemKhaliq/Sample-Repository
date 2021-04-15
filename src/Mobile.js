@@ -13,6 +13,8 @@ export function Mobile(props){
     }
 
 
+    //Get Window Size
+    
     useEffect(() => {
         window.addEventListener("resize",changed)
         setScreen(window.innerWidth);
